@@ -1,0 +1,12 @@
+nombre: collaborative-skills
+on: [push]
+
+jobs:
+  build:
+    name: hotfix@1.0.0
+    runs-on: windows-latest
+    steps:
+      - name: feature1@1.0.1
+      - name: feature2@1.1.0
+      - name: master@1.2.0
+       
